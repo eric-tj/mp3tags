@@ -1,0 +1,6 @@
+Simple tool still under-development, which is used to read mp3tags and upload to a mysql database.
+
+compile: gcc -o main main.c mp3tag.c database.c `mysql_config --cflags --libs`
+
+mp3tags extract refered: https://github.com/DonnoDK/ID3Tag
+
